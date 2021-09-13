@@ -1,0 +1,42 @@
+#logo {
+    margin-left: 1123px;
+}
+.container #container2 #logo {
+}
+
+
+@media (min-width:576px) and (max-width:767.98px){
+	#logo {
+    margin-left: 287px;
+}
+.container #container2 #logo {
+}
+
+}
+
+@media (min-width:768px) and (max-width:1199px){
+	#logo {
+    margin-left: 347px;
+}
+.container #container2 #logo {
+}
+
+}
+
+@media (min-width:1200px){
+	#logo {
+    margin-left: 657px;
+}
+.container #container2 #logo {
+}
+
+}
+
+@media (max-width:575.98px){
+	#logo {
+    margin-left: 182px;
+}
+.container #container2 #logo {
+}
+
+}
