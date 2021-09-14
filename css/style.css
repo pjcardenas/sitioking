@@ -105,7 +105,7 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .navbar.sticky .logo a span{
-    color: #fff;
+    color: #000000;
 }
 .navbar .menu li{
     list-style: none;
@@ -369,6 +369,10 @@ section .title::after{
 .column.right .bars .line.photoshop {
 }
 .column.right .bars .line.illustrator {
+	
+}
+.column.right .bars .line.3dmax {
+    
 }
 
 .skills-content .right .illustrator::before {
@@ -398,12 +402,9 @@ section .title::after{
     width: 66%;
 }
 .skills-content .right .3dmax::before {
-    width: 65%;
-    background-color: rgba(163,21,23,1.00);
+    width: 65%; 
 }
-.column.right .bars .line.3dmax {
-    width: 95%;
-}
+
 
 
 .btn-neon{
