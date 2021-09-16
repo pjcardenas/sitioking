@@ -260,8 +260,8 @@ section .title::after{
 
 /* services section styling */
 .services, .teams{
-    color:#fff;
-    background: #111;
+    color: #fff;
+    background-color: #000000;
 }
 .services .title::before,
 .teams .title::before{
@@ -542,6 +542,10 @@ section .title::after{
 .contact .title::after{
     content: "get in touch";
 }
+#contact .max-width .title {
+    color: rgba(248,242,242,1.00);
+}
+
 .contact .contact-content .column{
     width: calc(50% - 30px);
 }
@@ -570,9 +574,10 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    color: rgba(212,177,55,1.00);
 }
 .contact .contact-content .info .sub-title{
-    color: #333;
+    color: #FFFFFF;
 }
 .contact .right form .fields{
     display: flex;
@@ -652,6 +657,18 @@ footer span a:hover{
 }
 .card .box a {
 }
+#contact {
+    background-color: rgba(1,1,1,1.00);
+}
+.contact-content .column.left .text {
+    color: rgba(212,177,55,1.00);
+}
+.contact-content .column.left p {
+    color: rgba(255,251,251,1.00);
+}
+
+
+
 
 
 
@@ -782,3 +799,4 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
