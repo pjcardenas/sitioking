@@ -31,6 +31,13 @@ p {
 .barra {
     background-color: #FFC600;
 }
+#index-banner3 .parallax {
+    background-image: url(file:///C|/Users/King%20Olbap/Pictures/ko/Dise%C3%B1o%20web/img/kingolbap.png);
+
+
+
+}
+
 
 
 @media only screen and (max-width : 992px) {
